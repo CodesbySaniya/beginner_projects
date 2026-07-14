@@ -1,0 +1,41 @@
+print("🍿 Welcome to the Concession Stand")
+
+# 1. Popcorn - ₹150
+# 2. Nachos - ₹120
+# 3. Coke - ₹60
+# 4. Chips - ₹50
+# 5. Candy - ₹40
+
+
+menu = {"popcorn": 150,
+        "nachos": 120,
+        "coke":60,
+        "chips":50,
+        "candy": 40
+    
+}
+
+total = 0
+ask = input("Hello! would u like to see menu ?(Y/N)")
+if ask.upper() == "Y":
+  print(menu)
+else:
+  print("no problem")
+
+while True:
+ order = input("what would u like to order ? ")
+ if order.lower() in menu.keys():
+     quantity = int(input("how much u want ? "))
+     price = menu[order]
+     total += price*quantity
+     print("order done successfully!")
+ else:
+     print("Item not available!")
+     break
+
+ more = input("Do you want anything else? (Y/N): ")
+ if more.upper() == "N":
+        break
+
+print(f"Total amount: ₹{total}")
+print("Thank you for ordering! 😊")
