@@ -4,16 +4,21 @@ Welcome to my Python Projects repository! 🚀
 
 This repository contains the Python projects I build while learning programming and improving my problem-solving skills. Each project helps me practice Python concepts and prepare for software development and AI/ML.
 
-## 📂 Projects
+## 🐍 Python Beginner Projects
 
-* 🔢 Calculator
-* 🌡️ Temperature Converter
-* ⚖️ Weight Converter
-* 🎯 Number Guessing Game
-* ❓ Quiz Game
-* ✂️ Rock Paper Scissors Game
-* 📝 To-Do List
+This repository contains my Python practice projects while learning programming fundamentals.
 
+| Project | Description | Concepts Used |
+|---------|-------------|---------------|
+| 🧮 Calculator | A simple calculator performing basic arithmetic operations | Functions, User Input, Operators |
+| 🛒 Concession Cart | A shopping cart program to calculate total bill | Dictionary, Loops, Conditions |
+| 🎲 Dice Art Game | A dice rolling game with ASCII art representation | Random Module, Lists, Conditions |
+| 💰 Expense Tracker | A command-line application to add, view and calculate expenses | Lists, Dictionaries, Loops, Conditions |
+| ❓ Quiz Game | A Python quiz game with questions, options and score calculation | Lists, Loops, Conditional Statements |
+| ✊ Rock Paper Scissors | A classic game against the computer | Random Module, While Loop, Conditions |
+| 🌡️ Temperature Converter | Converts temperature between different units | Variables, Input Handling, Type Conversion |
+| 📝 Todo List | A simple task management application | Lists, Loops, User Input |
+| ⚖️ Weight Converter | Converts weight between different units | Variables, Conditional Statements |
 ## 🛠️ Skills Used
 
 * Variables & Data Types
