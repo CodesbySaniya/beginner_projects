@@ -1,4 +1,4 @@
-#project-updated_TO_DO_LIST_PROJECT IN PYTHON
+#project-updated_TO_DO_LIST_PROJECT IN PYTHON uUSING LOOP AND CONDITIONAL STATEMENT
 while True:
   print("1.add task")
   print("2.view task")
