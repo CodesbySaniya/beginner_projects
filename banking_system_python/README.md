@@ -25,4 +25,6 @@ A console-based Banking System built using Python.
 1. Clone the repository
 2. Run:
 
-python banking_system.py
+## 📸 Output Preview
+
+![Banking System Output](banking_output.png)
