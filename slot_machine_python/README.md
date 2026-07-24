@@ -50,38 +50,6 @@ Slot-Machine/
 └── README.md
 ```
 
-## ▶️ How to Run
-
-1. Clone the repository:
-
-```bash
-git clone <your-repository-link>
-```
-
-2. Navigate to the project folder:
-
-```bash
-cd Slot-Machine
-```
-
-3. Run the program:
-
-```bash
-python slot_machine.py
-```
-
-## 📸 Sample Output
-
-```
-Enter your bet: 20
-
-['🍒', '🍒', '🍒']
-
-You won!
-
-Balance: 100
-```
-
 ## 📚 Concepts Practiced
 
 * Functions
