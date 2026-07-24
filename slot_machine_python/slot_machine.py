@@ -25,28 +25,41 @@ def spin(symbols):
     result.append(ans)
    return result
 
-print(spin(symbols))
+# print(spin(symbols))
 
 
 def check_result(result,bet,balance):
     if result[0] == result[1] and result[1] == result[2] :
       print("you won!")
+      balance = balance-bet
       if result[0] == "🍒":
-        reward = bet+20
+        balance += 20
       elif result[0] == "🔔":
-        reward = bet+30
+        balance += 30
       elif result[0] == "🍋":
-              reward = bet+40
+        balance += 40
       elif result[0] == "⭐":
-              reward = bet+50
+        balance += 50
       elif result[0] == "7️⃣":
-              reward = bet+70
-      balance -= bet
-      balance = reward
+        balance += 70
+    
     else:
-       reward= bet-30
-       balance -= bet
-       balance=reward
+       print("you lose!")
+       balance = balance-bet
+       
 
-    return reward
+    return balance
 
+print(balance)
+
+
+while True:
+  new_bet = get_bet(balance)
+  new = spin(symbols)
+  print(new)
+  updated_balance = check_result(new,new_bet,balance)
+  balance = updated_balance
+  print(f"balance left : {balance}")
+  if updated_balance <= 0:
+    print("Game Over!")
+    break
